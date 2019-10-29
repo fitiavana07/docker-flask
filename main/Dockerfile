@@ -33,6 +33,8 @@ COPY conf/gunicorn.conf.py /etc/gunicorn/gunicorn.conf.py
 # Sample app
 COPY app /app
 
+WORKDIR /app
+
 # 80 for HTTP
 EXPOSE 80
 

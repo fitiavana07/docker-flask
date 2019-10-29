@@ -2,13 +2,13 @@ version: '3'
 
 services:
   main:
-    image: xdrala/flask:${VERSION_MAIN:-latest}
+    image: fitiavana07/flask:${VERSION_MAIN:-latest}
     build:
       context: ./main
       dockerfile: Dockerfile
 
   dev:
-    image: xdrala/flask:${VERSION_DEV:-dev}
+    image: fitiavana07/flask:${VERSION_DEV:-dev}
     build:
       context: ./dev
       dockerfile: Dockerfile

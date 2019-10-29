@@ -20,6 +20,9 @@ COPY app /app
 # Workdir for Gunicorn
 WORKDIR /app
 
+# Mount as a volume
+VOLUME /app
+
 # 8000 for Gunicorn
 EXPOSE 8000
 

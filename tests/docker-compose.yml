@@ -2,11 +2,11 @@ version: '3'
 
 services:
   main:
-    image: xdrala/flask:${VERSION_MAIN:-latest}
+    image: fitiavana07/flask:${VERSION_MAIN:-latest}
     ports:
       - 8000:80
   dev:
-    image: xdrala/flask:${VERSION_DEV:-dev}
+    image: fitiavana07/flask:${VERSION_DEV:-dev}
     ports:
       - 8001:8000
     volumes:
