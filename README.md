@@ -1,6 +1,6 @@
 # docker-flask
 
-Docker images for Flask
+Docker images for Flask with support for socket.io
 
 ## Included software
 
